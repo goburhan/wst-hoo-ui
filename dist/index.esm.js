@@ -2445,7 +2445,7 @@ var PanelFooter = function (_a) {
                 React.createElement("div", { style: { display: "flex", alignItems: "center",marginBottom:"5px" } },
                     React.createElement(Icon$16, { style: {  alignItems: "center", marginLeft: 36 } }),
                     React.createElement("span", { style: { fontSize: 17, color: "black" } }, "WST Price")),
-                    React.createElement("div", { style: {background:"#25e2c9",borderRadius:"20px",  padding: 10} },
+                    React.createElement("div", { style: {background:"#25e2c9",borderRadius:"20px",  padding: 4} },
                 React.createElement(Text, {fontSize: 17, color: "white", bold: true , marginLeft: 64 }, "$" + cakePriceUsd.toFixed(3))))) : (React.createElement(Skeleton, { width: 80, height: 24 })))));
 };
 var templateObject_1$C, templateObject_2$c, templateObject_3$7, templateObject_4$2;
